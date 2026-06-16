@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-from app.llm import llm
+
+
+from app.routes.chat import chat_route
 
 app = FastAPI()
 
@@ -17,19 +18,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(chat_route)
+
 @app.get("/health")
+@app.get("/")
 def health():
     return {'message':'alive'}
 
 
-class chatRequest(BaseModel):
-    query: str
 
-class chatResponse(BaseModel):
-    response : str
-
-@app.post("/chat")
-def get_ai_message(request:chatRequest)->chatResponse :
-    result = llm.invoke({"question": request.query})
-    print(result)
-    return chatResponse(response=result.content)

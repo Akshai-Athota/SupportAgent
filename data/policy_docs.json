@@ -1,0 +1,80 @@
+[
+    {
+        "question": "How long do I have to return an item?",
+        "response": "You can return most items within 30 days of delivery, as long as they are unused and in their original packaging.",
+        "category": "returns",
+        "intent": "return_window"
+    },
+    {
+        "question": "How do I start a return?",
+        "response": "Start a return from the Orders section of your account: select the item and choose 'Return'. We'll email you a prepaid shipping label.",
+        "category": "returns",
+        "intent": "start_return"
+    },
+    {
+        "question": "How long do refunds take?",
+        "response": "Once we receive your returned item, your refund is issued to the original payment method within 5-7 business days.",
+        "category": "refunds",
+        "intent": "refund_timeline"
+    },
+    {
+        "question": "How will I receive my refund?",
+        "response": "Refunds are always issued to the original payment method used for the purchase.",
+        "category": "refunds",
+        "intent": "refund_method"
+    },
+    {
+        "question": "Why does my refund need review?",
+        "response": "Refunds above 500 euros require manual approval by a support specialist and may take slightly longer to process.",
+        "category": "refunds",
+        "intent": "refund_review"
+    },
+    {
+        "question": "How much does shipping cost?",
+        "response": "Standard shipping is free on orders over 50 euros; otherwise it is 4.99 euros. Express shipping is 9.99 euros.",
+        "category": "shipping",
+        "intent": "shipping_cost"
+    },
+    {
+        "question": "How long does delivery take?",
+        "response": "Standard delivery takes 3-5 business days and express delivery arrives in 1-2 business days. We currently ship within the EU only.",
+        "category": "shipping",
+        "intent": "shipping_time"
+    },
+    {
+        "question": "How do I track my order?",
+        "response": "When your order ships, we email you a tracking link. You can also find it in the Orders section of your account.",
+        "category": "shipping",
+        "intent": "order_tracking"
+    },
+    {
+        "question": "What does the warranty cover?",
+        "response": "All products include a 1-year limited warranty covering manufacturing defects. It does not cover accidental damage or normal wear and tear.",
+        "category": "warranty",
+        "intent": "warranty_coverage"
+    },
+    {
+        "question": "How do I make a warranty claim?",
+        "response": "Contact support with your order number and a description of the defect, and we will arrange a repair or replacement.",
+        "category": "warranty",
+        "intent": "warranty_claim"
+    },
+    {
+        "question": "Can I cancel my order?",
+        "response": "You can cancel an order within 1 hour of placing it, or any time before it ships, from the Orders section of your account.",
+        "category": "cancellation",
+        "intent": "cancel_order"
+    },
+    {
+        "question": "Can I change my order after placing it?",
+        "response": "You can change the items or shipping address any time before the order ships. After it ships, please use the return process.",
+        "category": "change_order",
+        "intent": "change_order"
+    },
+    {
+        "question": "What payment methods do you accept?",
+        "response": "We accept major credit and debit cards as well as PayPal.",
+        "category": "payment",
+        "intent": "payment_methods"
+    }
+]
