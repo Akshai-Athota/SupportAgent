@@ -40,5 +40,6 @@ def delete_order(order_id):
         order = session.query(Order).filter_by(id=order_id).first()
         if order is None:
             return False
-        session.delete(order)  # cascade removes its OrderItems
+        session.delete(order)  
         return True
+    

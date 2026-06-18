@@ -38,3 +38,5 @@ def delete_customer(customer_id):
             return False
         session.delete(customer)
         return True
+    
+

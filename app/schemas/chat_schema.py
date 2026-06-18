@@ -6,6 +6,4 @@ class chatRequest(BaseModel):
 
 class chatResponse(BaseModel):
     response:str
-    source:List[str]
-    intent:List[str]
-    category:List[str]
+    tools_used:List[str]
