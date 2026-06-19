@@ -5,7 +5,7 @@ from contextlib import contextmanager
 from app.config import DATABSE_URL
 import app.models
 
-engine  = create_engine(url=DATABSE_URL,echo=True)
+engine  = create_engine(url=DATABSE_URL,echo=False,pool_pre_ping=True,connect_args={"connect_timeout":20})
 
 SessionLocal = sessionmaker(
     bind=engine,

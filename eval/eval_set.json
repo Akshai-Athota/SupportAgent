@@ -1,0 +1,887 @@
+[
+  {
+    "id": "kb-0",
+    "type": "kb",
+    "question": "can you help me cancelong purchase the user's order number?",
+    "expected_intent": "cancel_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've noticed that you're seeking assistance in canceling purchase the user's order number. I apologize for any inconvenience this may have caused you. To cancel your purchase, please follow these steps:\n\n1. Log in to your the company portal using your credentials.\n2. Navigate to the \"orders section\" or \"orders section\" section, where you can find an overview of your past purchases.\n3. Look for the purchase with the order number the user's order number and click on it to access the order details.\n4. Once you're on the order details page, locate and select the \"orders section\" option associated with your purchase.\n5. Follow any additional prompts or confirmations that may appear to complete the cancellation process.\n\nIf you encounter any difficulties or have further questions, don't hesitate to reach out to our dedicated support team. They are available during the required Customer Support Hours at the required Customer Support Phone Number or through the Live Chat feature on our website at the required Website URL. We value your satisfaction and are here to assist you every step of the way."
+  },
+  {
+    "id": "kb-1",
+    "type": "kb",
+    "question": "i need assistance cancelling purchase the user's order number",
+    "expected_intent": "cancel_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've deduced from your message that you're seeking assistance with canceling your purchase with the purchase number the user's order number. We apologize for any inconvenience this may have caused, and we are here to help you through the process. To cancel your purchase, please follow these steps:\n\n1. Sign in to your account on our the company portal.\n2. Navigate to your \"orders section\" or \"orders section\" section.\n3. Locate the purchase with the order number the user's order number and click on it.\n4. Look for the option \"orders section\" associated with the purchase and click on it.\n5. Follow any additional prompts or instructions provided by the system to complete the cancellation process.\n\nIf you encounter any difficulties or have further questions, do not hesitate to reach out to our dedicated support team. You can contact them during the required Customer Support Hours at the required Customer Support Phone Number, or use the Live Chat feature on our the required Website URL. We are committed to ensuring your satisfaction and are ready to assist you every step of the way."
+  },
+  {
+    "id": "kb-2",
+    "type": "kb",
+    "question": "I purchased some product, cancel order the user's order number",
+    "expected_intent": "cancel_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've grasped that you're seeking assistance with canceling the order with order number the user's order number. We apologize for any inconvenience caused and we're here to help you. To cancel the order, please follow these steps:\n\n1. Sign in to your account: Log in to your the company portal using your credentials.\n2. Locate your order: Navigate to the 'orders section' or 'orders section' section.\n3. Find the specific order: Look for the order with the order number the user's order number.\n4. Initiate the cancellation: Click on the order and look for the option to 'orders section'.\n5. Confirm the cancellation: You might be asked to provide a reason for canceling the order. Please select the appropriate reason and confirm the cancellation.\n\nIf you encounter any difficulties or have further questions, our dedicated customer support team is available to assist you. You can reach us during the required Customer Support Hours at the required Customer Support Phone Number or through the Live Chat on our website at the required Website URL. We appreciate your understanding and we'll do our best to ensure your satisfaction."
+  },
+  {
+    "id": "kb-3",
+    "type": "kb",
+    "question": "what do I have to do to cancel order the user's order number?",
+    "expected_intent": "cancel_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I perceive that you're looking for guidance on canceling order the user's order number. To assist you with the cancellation process, please follow these steps:\n\n1. Log In to Your Account: Begin by signing in to our the company portal using your credentials.\n2. Locate Your Order: Once you're in, navigate to the 'orders section' or 'orders section' section.\n3. Find the Relevant Order: Look for the order number the user's order number within this section.\n4. Initiate the Cancellation: Click on the order to open the details and locate the 'orders section' option.\n5. Complete the Cancellation Process: Follow the prompts and provide any required information to finalize the cancellation.\n\nIf you encounter any difficulties during this process or have any further questions, please don't hesitate to reach out to our dedicated team. We are available during the required Customer Support Hours at the required Customer Support Phone Number, or you can connect with us through the Live Chat feature on our the required Website URL. We value your satisfaction and are here to assist you every step of the way."
+  },
+  {
+    "id": "kb-4",
+    "type": "kb",
+    "question": "i want help to update order the user's order number",
+    "expected_intent": "change_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We understand that you would like assistance with updating order number #the user's order number. Our team is here to help you make the necessary changes to ensure your satisfaction. Please provide us with detailed information about the specific updates you would like to make so that we can assist you accurately and efficiently. Your feedback is important to us, and we want to ensure that your order meets your expectations."
+  },
+  {
+    "id": "kb-5",
+    "type": "kb",
+    "question": "I can't delete an article from order the user's order number",
+    "expected_intent": "change_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've understood that you're having difficulty deleting an article from order the user's order number. I apologize for the inconvenience this has caused you. To better assist you, could you please provide me with more details about the specific article you're trying to delete? Additionally, if there are any error messages or steps you've already taken, please let me know. We'll work together to find a solution and ensure your satisfaction."
+  },
+  {
+    "id": "kb-6",
+    "type": "kb",
+    "question": "I need help with adding an article to order the user's order number",
+    "expected_intent": "change_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've grasped that you need assistance with adding an article to your order with the number the user's order number. We are here to help you make the necessary changes to ensure your satisfaction. Could you please provide more details about the article you would like to add? This will allow us to process your request accurately and efficiently. Thank you for reaching out to us, and we appreciate your patience while we assist you with this modification."
+  },
+  {
+    "id": "kb-7",
+    "type": "kb",
+    "question": "i need assistance to add some products to order the user's order number",
+    "expected_intent": "change_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We appreciate your inquiry to us for assistance in adding products to your order with the number the user's order number. We understand that you would like to modify your order by including additional items. To help you with this, could you please provide us with the details of the products you wish to add? Our team will ensure that the necessary updates are made to your order promptly. Your satisfaction is our top priority, and we are here to assist you throughout the process."
+  },
+  {
+    "id": "kb-8",
+    "type": "kb",
+    "question": "I chose a wrong address by mistake",
+    "expected_intent": "change_shipping_address",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "No problem at all! We can help you with that. Please provide us with the correct address, and we will make sure to update it for your delivery."
+  },
+  {
+    "id": "kb-9",
+    "type": "kb",
+    "question": "i have errors changing mydelivery address",
+    "expected_intent": "change_shipping_address",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'm sorry to hear that you're facing difficulties in changing your delivery address. To help you resolve this issue, could you please provide the correct address you would like your order to be delivered to? Once I have that information, I'll do everything I can to assist you in updating your shipping address."
+  },
+  {
+    "id": "kb-10",
+    "type": "kb",
+    "question": "I need help trying to edit the shipping address",
+    "expected_intent": "change_shipping_address",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Sure, we're here to assist you in editing your shipping address. To get started, please provide us with your current address and the new address you would like to update it to. Our customer support team will then guide you through the process."
+  },
+  {
+    "id": "kb-11",
+    "type": "kb",
+    "question": "I submitted a wrong address by mistake, can you edit it?",
+    "expected_intent": "change_shipping_address",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I apologize for the inconvenience caused by the wrong address submission. To edit it, please reach out to our customer service team with the correct details as soon as possible. They will assist you in making the necessary changes to ensure your delivery goes smoothly."
+  },
+  {
+    "id": "kb-12",
+    "type": "kb",
+    "question": "hwat do I have to do to see the early termination charges?",
+    "expected_intent": "check_cancellation_fee",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Assuredly! I can help you find the details about the early termination charges. To view the information, you can visit our website and navigate to the \"Terms and Conditions\" or \"FAQs\" section. Within those sections, you should be able to locate the specific details regarding early termination charges. If you have any trouble finding the information, feel free to reach out to our customer support team, and they will be happy to assist you further."
+  },
+  {
+    "id": "kb-13",
+    "type": "kb",
+    "question": "where to check the cancellation charge?",
+    "expected_intent": "check_cancellation_fee",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "To check the cancellation charge, you can refer to your service agreement or contact our customer service department. They will be able to provide you with detailed information regarding the cancellation fees."
+  },
+  {
+    "id": "kb-14",
+    "type": "kb",
+    "question": "I cannot find the early termination charge",
+    "expected_intent": "check_cancellation_fee",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "No worries! I can assist you in locating the information about the early termination charge. To find out the exact amount, you can check the terms and conditions section of your agreement or reach out to our customer support team. They will be more than happy to provide you with the necessary details."
+  },
+  {
+    "id": "kb-15",
+    "type": "kb",
+    "question": "I don't know how I can check the withdrawal penalty",
+    "expected_intent": "check_cancellation_fee",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've ascertained that you're unsure about how to check the withdrawal penalty. Let me assist you with that."
+  },
+  {
+    "id": "kb-16",
+    "type": "kb",
+    "question": "look for bill #85632",
+    "expected_intent": "check_invoice",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Positively! I understand that you're seeking assistance in locating the details of your bill with the number #the required Invoice Number. To provide you with accurate information, could you please provide me with some additional details such as the date range or any other relevant information? Rest assured, I'm here to help you every step of the way."
+  },
+  {
+    "id": "kb-17",
+    "type": "kb",
+    "question": "want assistance taking aquick look at my bill from the required Person Name",
+    "expected_intent": "check_invoice",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'm picking up what you're putting down, your desire to take a quick look at your bill from the required Salutation the required Client Last Name. Let's make this process as smooth as possible. Could you please provide me with a bit more information? Specifically, if you have any details about the date or invoice number, it would greatly help in locating your bill more efficiently. Rest assured, I'm here to guide you and ensure you have a seamless experience."
+  },
+  {
+    "id": "kb-18",
+    "type": "kb",
+    "question": "want assistance to find the bills from the required Person Name",
+    "expected_intent": "check_invoice",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'm following your need for assistance in finding the bills from the required Salutation the required Client Last Name. I'm here to help you with that. To better assist you, could you please provide me with some additional details, such as the date range or any specific invoice numbers? This information will enable me to locate the bills more efficiently and provide you with the necessary assistance. Feel free to ask any questions or share any concerns you may have regarding this process. Together, we'll ensure a swift and satisfactory resolution."
+  },
+  {
+    "id": "kb-19",
+    "type": "kb",
+    "question": "chcek bills from the required Person Name",
+    "expected_intent": "check_invoice",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We've received your message to us for assistance with checking the bills from the required Salutation the required Client Last Name. I understand the importance of being able to review your bills promptly and accurately. To help you with this, could you please provide me with the specific bill numbers or any additional details that will assist me in locating the bills you are referring to? Rest assured, I am here to provide you with the necessary support and ensure a seamless experience."
+  },
+  {
+    "id": "kb-20",
+    "type": "kb",
+    "question": "show me your fucking accepted payment options",
+    "expected_intent": "check_payment_methods",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I apologize if there was any confusion in the previous response. I'm here to assist you in finding the accepted payment options. We offer a variety of secure and convenient payment methods to cater to our customers' preferences. Some of the common payment options include credit/debit cards, PayPal, bank transfer, Apple Pay, and Google Wallet. If you have any specific payment method in mind or if you need further assistance, please let me know."
+  },
+  {
+    "id": "kb-21",
+    "type": "kb",
+    "question": "I do not know how to see the accepted payment methods",
+    "expected_intent": "check_payment_methods",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Oh, no worries at all! I'm here to help you with that. To see the accepted payment methods, you can simply follow these steps:\n\n1. Visit our website and navigate to the checkout page.\n2. Look for the \"Payment Methods\" section or tab.\n3. Click on it to view the list of accepted payment methods.\n\nIf you encounter any difficulties or have further questions while trying to access the payment methods, please don't hesitate to let me know. I'll be more than happy to guide you through the process step by step. Your satisfaction is our priority, and we want to ensure that you have a seamless experience."
+  },
+  {
+    "id": "kb-22",
+    "type": "kb",
+    "question": "i try to check whatr payment methods uaccept",
+    "expected_intent": "check_payment_methods",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I appreciate your interest in our payment methods! I'd be delighted to provide you with the information you need. Here are the payment methods we accept:\n\n- **Credit/Debit Card:** We welcome major card brands such as Visa, Mastercard, and American Express.\n- **PayPal:** A widely recognized online payment platform known for its security and convenience.\n- **Bank Transfer:** Directly transfer funds from your bank account to complete your purchase.\n- **Apple Pay:** An effortless payment method for Apple device users.\n- **Google Wallet:** Google's convenient payment system for fast and seamless checkouts.\n\nIf you have any specific questions or if there's anything else I can assist you with, please don't hesitate to let me know. Your satisfaction is our top priority!"
+  },
+  {
+    "id": "kb-23",
+    "type": "kb",
+    "question": "need help to see ur available payment methods",
+    "expected_intent": "check_payment_methods",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Certainly! I'm here to assist you in finding our available payment methods. To access this information, you can visit our website and navigate to the \"Payment Options\" or \"Checkout\" page. On this page, you will find a detailed list of the different payment methods we accept, including credit/debit cards, PayPal, bank transfers, Apple Pay, and Google Wallet. If you have any specific questions or need further assistance with any of these methods, please let me know. I'm more than happy to help ensure you have all the information you need."
+  },
+  {
+    "id": "kb-24",
+    "type": "kb",
+    "question": "want help checking ur money back policy",
+    "expected_intent": "check_refund_policy",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'll get right on it! I completely understand your need to gain clarity on our money back policy. Our refund policy is designed to ensure your satisfaction and protection as a valued customer. Here are the key points to know:\n\n1. **Product/Service Defect:** If you receive a defective product or the service you receive doesn't match what was promised, you are eligible for a refund. We want to make sure that you receive products and services that meet your expectations.\n\n2. **Cancellation within Grace Period:** If you change your mind after making a purchase and decide to cancel within the specified grace period, you can typically receive a refund. We understand that circumstances can change, and we want to accommodate your needs.\n\n3. **Unauthorized Charges:** If you see any charges on your account that you did not authorize or can't explain, please let us know immediately. We take unauthorized charges seriously and will investigate them thoroughly to ensure your account is protected.\n\n4. **Event Cancellation:** In the unfortunate event of an event cancellation, if it is not rescheduled, you will be eligible for a refund. We understand the disappointment of missing out on an event and want to make sure you are properly reimbursed.\n\n5. **Duplicate Charges:** If you notice duplicate charges for the same product or service, please notify us right away. We'll work diligently to resolve the issue and refund any extra charges.\n\n6. **Non-receipt of Goods:** If you haven't received your ordered product within the expected delivery timeframe, please contact us. We will investigate the issue and ensure that you either receive the product or get a refund.\n\nPlease keep in mind that every vendor or service provider might have their own refund policies, so it's important to review their terms and conditions for specific details. If you have any concerns or questions about a particular order or refund request, please provide us with the necessary information, such as the order number or any relevant details, and we will be more than happy to assist you further.\n\nRemember, our primary goal is your satisfaction, and we value your trust in our services. Is there anything else I can assist you with today?"
+  },
+  {
+    "id": "kb-25",
+    "type": "kb",
+    "question": "help me seeing in which cases can I ask for my money back",
+    "expected_intent": "check_refund_policy",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'll take care of it! I completely understand your need for assistance in identifying the cases in which you can request a refund.\n\nWhen it comes to requesting a refund, there are several situations where you may be eligible:\n\n1. **Product/Service Defect:** If the product or service you received is defective or does not meet the description provided, you usually have the right to request a refund.\n\n2. **Cancellation within Grace Period:** Many companies offer a grace period during which you can change your mind and cancel your purchase. If you cancel within that specified timeframe, you should be able to request a refund.\n\n3. **Unauthorized Charges:** If you notice any charges on your account that you did not authorize or recognize, it's essential to report them immediately. In such cases, the company will investigate the charges and provide the necessary assistance.\n\n4. **Event Cancellation:** If you purchased tickets for an event that got canceled and no rescheduled date is available, you would typically be eligible for a refund.\n\n5. **Duplicate Charges:** Mistakes happen, and if you find that you have been charged multiple times for the same product or service, reaching out to the company will allow them to rectify the issue and provide a refund.\n\n6. **Non-receipt of Goods/Services:** If you have not received the goods or services you paid for within the expected timeframe, you can request a refund. It's crucial to reach out to the company promptly and provide any relevant details.\n\nPlease keep in mind that refund policies can vary between companies, so it's a good idea to review the terms and conditions or contact the specific vendor for more details. If you have any specific details or concerns regarding a particular order, please provide me with the necessary information, such as the order number or any other relevant details, and I'll be happy to assist you further.\n\nEnsuring your satisfaction and addressing your concerns is our top priority. Let me know if there's anything else I can help you with."
+  },
+  {
+    "id": "kb-26",
+    "type": "kb",
+    "question": "i need help seeing ur monbey back policy",
+    "expected_intent": "check_refund_policy",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Unquestionably! I completely understand your need for assistance in understanding our money back policy. Our company values your satisfaction and strives to provide a seamless refund experience. Here are the key points of our money back policy:\n\n1. **Product Quality:** If you find that the product you purchased is of poor quality or doesn't meet your expectations, you may be eligible for a refund. We want to ensure that you receive only the best products from us.\n\n2. **Delivery Issues:** If your order is lost during transit, arrives damaged, or doesn't arrive at all, we will work with you to arrange a refund. Your trust and convenience are our top priorities.\n\n3. **Cancellation:** If you change your mind and decide to cancel your order within a specified timeframe, you can request a refund. We believe in giving you the flexibility to make choices that suit your needs.\n\n4. **Unauthorized Transactions:** In the unfortunate event of unauthorized charges on your account, we will investigate the issue promptly and take appropriate action. Your security is crucial to us, and we want to ensure that you are not held responsible for unauthorized transactions.\n\n5. **Service Dissatisfaction:** If you are dissatisfied with the service we provided, please reach out to us so we can address your concerns. Your feedback is important to us, and we strive to improve our services based on your valuable input.\n\nIt's important to note that our money back policy may have specific terms and conditions that vary depending on the product or service you purchased. To get detailed information about our policy or discuss a specific refund request, please contact our customer support team. We are available the required Customer Support Hours at the required Customer Support Phone Number or through the Live Chat on our website at the required Website URL.\n\nI hope this clarifies our money back policy for you. If you have any additional questions or need further assistance, please feel free to ask."
+  },
+  {
+    "id": "kb-27",
+    "type": "kb",
+    "question": "assistance to check ur money back guarantee",
+    "expected_intent": "check_refund_policy",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Of course! I understand that you would like assistance in checking our money back guarantee. Our company takes customer satisfaction seriously and wants to ensure that you have complete peace of mind when making a purchase with us. Our money back guarantee covers the following situations:\n\n1. **Product/Service Defect:** If you receive a product or service that is defective, damaged, or doesn't meet your expectations, you are eligible for a refund.\n\n2. **Cancellation within Grace Period:** If you change your mind and decide to cancel your purchase within the specified grace period, you can request a refund.\n\n3. **Unauthorized Charges:** If you notice any unauthorized charges on your account related to our company, please reach out to our customer support immediately. We will investigate the charges and provide a resolution, including a refund if necessary.\n\n4. **Event Cancellation:** If you have purchased tickets for an event that gets canceled and no alternative date is provided, we will process a refund for the ticket price.\n\n5. **Duplicate Charges:** In the event that you notice duplicate charges for the same item on your billing statement, please inform us right away. We will rectify the situation and issue a refund for the duplicated charge.\n\n6. **Non-receipt of Goods:** If you have not received the goods you ordered within the expected delivery timeframe, please contact our customer support. We will investigate the issue and arrange a refund if appropriate.\n\nIt is important to note that our money back guarantee may have specific terms and conditions, so I recommend reviewing our refund policy on our website or contacting our customer support team for detailed information based on your specific situation.\n\nI hope this information clarifies our money back guarantee for you. If you have any further questions or require any assistance, please feel free to let me know."
+  },
+  {
+    "id": "kb-28",
+    "type": "kb",
+    "question": "I am unhappy with your services, help filing a claim",
+    "expected_intent": "complaint",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'm sorry to hear that you're unhappy with our services. Your satisfaction is our top priority, and we want to address your concerns promptly. To help you file a claim, we have a dedicated customer support team that specializes in handling complaints. They will guide you through the process and ensure that your claim is properly documented and addressed. Please provide us with some details about the specific issue you're facing so that we can assist you further. Let us work together to resolve this and regain your trust in our services."
+  },
+  {
+    "id": "kb-29",
+    "type": "kb",
+    "question": "file reclamation",
+    "expected_intent": "complaint",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've ascertained that you want to file a reclamation. Your feedback is important to us, and we take your concerns seriously. To ensure that your reclamation is properly addressed, please provide us with the details of your issue and any supporting documentation you may have. Our team will thoroughly investigate your reclamation and take the necessary steps to resolve it. We appreciate your patience and cooperation in this matter."
+  },
+  {
+    "id": "kb-30",
+    "type": "kb",
+    "question": "help me to file a customer claim gaainst your organization",
+    "expected_intent": "complaint",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've ascertained that you need assistance with filing a customer claim against our organization. I appreciate you reaching out and allowing us the opportunity to address your concerns. To begin the process, I kindly ask you to provide me with the specific details of your claim. This information will allow us to thoroughly investigate your concerns and work towards a fair resolution. Please be assured that I will do my best to assist you throughout this process."
+  },
+  {
+    "id": "kb-31",
+    "type": "kb",
+    "question": "wanna lodge a consumer reclamation against ur company",
+    "expected_intent": "complaint",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'm sorry to hear that you want to lodge a consumer reclamation against our company. We take complaints very seriously, and I'm here to assist you with the process. To lodge a consumer reclamation, I recommend reaching out to our customer support team directly. They can provide you with the necessary guidance and instructions to ensure that your complaint is addressed promptly and efficiently. Please let me know if you need any further assistance."
+  },
+  {
+    "id": "kb-32",
+    "type": "kb",
+    "question": "i haqve to see at what time i can contact customer service",
+    "expected_intent": "contact_customer_service",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We're here for you! I'm aware that you need to know the operating hours to contact our customer service team. Our dedicated team is available to assist you during the following hours: the required Customer Service Hours. Feel free to reach out within these times for any inquiries or concerns you may have. How else can I assist you today?"
+  },
+  {
+    "id": "kb-33",
+    "type": "kb",
+    "question": "wanna ceck what hours i can contact customer assistance",
+    "expected_intent": "contact_customer_service",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Always good to connect! I'm attuned to the fact that you would like to know the operating hours to contact our customer assistance team. Our dedicated team is available to assist you during the required Customer Support Hours. You can reach us through various channels such as phone, email, or live chat during these hours. We are here to provide you with the support you need. If you have any other questions or concerns, please feel free to ask."
+  },
+  {
+    "id": "kb-34",
+    "type": "kb",
+    "question": "do you have an e-mail address to contact customer support?",
+    "expected_intent": "contact_customer_service",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thanks for getting in touch! I grasp that you are looking for an email address to contact our customer support team. To provide you with the most accurate email address, could you please let me know which specific department or service you need assistance with? This will allow me to direct you to the appropriate contact information."
+  },
+  {
+    "id": "kb-35",
+    "type": "kb",
+    "question": "call customer support",
+    "expected_intent": "contact_customer_service",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for reaching out! If you would like to speak directly with our customer support team, you can contact them at the required Customer Support Phone Number. They will be more than happy to assist you with any questions or concerns you may have. Is there anything else I can help you with?"
+  },
+  {
+    "id": "kb-36",
+    "type": "kb",
+    "question": "will you direct to me someone?",
+    "expected_intent": "contact_human_agent",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Honored to assist! I'm clued in that you would like to be directed to someone for assistance. I'm here to help! Allow me to quickly connect you with one of our dedicated human representatives who will be able to assist you further. Please stay with me for just a moment while I transfer you to a representative who will take care of your needs."
+  },
+  {
+    "id": "kb-37",
+    "type": "kb",
+    "question": "i want help talking with someone",
+    "expected_intent": "contact_human_agent",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "It's great to hear from you! I can see that you need assistance with talking to someone. I'm here to help you with that. To connect you with a human representative, please allow me a moment. While we're preparing the best support for you, could you please provide me with more details about your inquiry or the specific topic you need help with? This will help us ensure that the right person assists you effectively. Thank you for your cooperation, and we appreciate your patience."
+  },
+  {
+    "id": "kb-38",
+    "type": "kb",
+    "question": "can you hwlp me talking with a person?",
+    "expected_intent": "contact_human_agent",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for contacting! I certainly recognize that you're looking for assistance and would like to speak with a person. Our team is here to help and address your concerns. Please allow me a moment to connect you with a dedicated human representative who will be able to provide the support you need. Your patience is greatly appreciated!"
+  },
+  {
+    "id": "kb-39",
+    "type": "kb",
+    "question": "could uhelp me to contact an assistant",
+    "expected_intent": "contact_human_agent",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We're here to help! I take note that you need help in contacting an assistant. I'm here to assist you. Could you please provide me with some details about the specific type of assistance you require? This will enable me to connect you with the most suitable assistant who can address your needs effectively. Your input is valuable and will ensure that you receive the best possible support. While I gather this information, rest assured that I'm working on connecting you with an assistant who will be able to provide the support you need."
+  },
+  {
+    "id": "kb-40",
+    "type": "kb",
+    "question": "create the required Account Type account for wife",
+    "expected_intent": "create_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Congratulations on your decision to create a the required Account Type account for your wife! We appreciate your trust in our services, and we're excited to welcome her to our exclusive community. To proceed with the account creation, we kindly request some information. Could you please provide your wife's full name, email address, and a preferred username? Rest assured that her security and privacy are of utmost importance to us, and we will handle her information with utmost care. Additionally, if she has any specific preferences or requirements, feel free to let us know. We're here to provide a personalized experience for her."
+  },
+  {
+    "id": "kb-41",
+    "type": "kb",
+    "question": "help me create a the required Account Type account",
+    "expected_intent": "create_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'm on it! I'm excited to guide you through the process of creating your new the required Account Type account. To begin, I kindly request you to provide the following information: your full name, email address, and a preferred username. Once I have these details, I'll ensure a seamless and personalized account creation experience for you. Rest assured, the security and privacy of your information are of utmost importance to us, and they will be safeguarded with the highest level of care. Let's get started on this exciting journey together!"
+  },
+  {
+    "id": "kb-42",
+    "type": "kb",
+    "question": "new standard account",
+    "expected_intent": "create_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "That's great to hear that you're interested in opening a new standard account! I'm here to assist you with the account creation process and provide you with all the necessary information. To get started, could you please provide me with some basic details such as your full name, email address, and a preferred username? Once I have these details, I'll guide you step-by-step through the account creation process, ensuring you have a smooth and hassle-free experience. Rest assured that the security and privacy of your information are of utmost importance to us. Let's embark on this exciting journey together!"
+  },
+  {
+    "id": "kb-43",
+    "type": "kb",
+    "question": "I need hepl with opening a premium account",
+    "expected_intent": "create_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for your interest in opening a the required Account Category account with us! It's a fantastic choice that comes with a range of benefits and exclusive features. To get started, I recommend visiting our website and navigating to the account creation page. Once you're on the page, you'll find a user-friendly interface that will guide you through the process step-by-step. If you encounter any difficulties or have any questions along the way, our dedicated customer support team is available to assist you. They can be reached through phone, email, or live chat. Don't hesitate to reach out if you need any further assistance. We're looking forward to welcoming you as a valued member of our the required Account Category account community!"
+  },
+  {
+    "id": "kb-44",
+    "type": "kb",
+    "question": "problem with the cancellation of a the required Account Category account",
+    "expected_intent": "delete_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for bringing up the issue regarding the cancellation of your the required Account Category account. I understand that you are facing difficulties with this process, and I'm here to assist you. Could you please provide more details on the specific problem you encountered? By identifying the exact issue, I'll be able to guide you through the cancellation process and ensure a seamless experience for you. Remember, I'm here to help and support you every step of the way."
+  },
+  {
+    "id": "kb-45",
+    "type": "kb",
+    "question": "I have to close the the required Account Category account",
+    "expected_intent": "delete_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Appreciate your message to us regarding the closure of your the required Account Category account. I understand that circumstances may change, and it's important to have control over your account status. To assist you with this process, I recommend visiting the account settings page on our platform. From there, you should be able to find the option to close your the required Account Category account. If you encounter any difficulties or have any further questions during this process, please don't hesitate to reach out for additional support. We are here to ensure that your account closure goes smoothly and that you are satisfied with our service."
+  },
+  {
+    "id": "kb-46",
+    "type": "kb",
+    "question": "problems with premium account deletions",
+    "expected_intent": "delete_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Happy to get your message about the issues you are facing with deleting your premium account. I understand how frustrating this can be, and I'm here to help. Could you please provide me with more details about the specific problems you are encountering? This will allow me to better assist you in resolving the issues and ensuring a successful deletion of your premium account."
+  },
+  {
+    "id": "kb-47",
+    "type": "kb",
+    "question": "i dont know what i need to do to remove the platinum account",
+    "expected_intent": "delete_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for reaching out about removing your the required Account Category account. I understand that you may be unsure about the process, and I'm here to assist you. To remove your the required Account Category account, you'll need to follow a simple procedure. You can either visit our website and navigate to the account settings page, where you'll find the option to close your account, or you can reach out to our customer support team through the live chat or phone, and they will guide you through the process. Remember, our team is available to provide you with all the necessary support and answer any questions you may have. We value your decision and want to ensure a smooth experience for you throughout this process."
+  },
+  {
+    "id": "kb-48",
+    "type": "kb",
+    "question": "what shipment options can I choose?",
+    "expected_intent": "delivery_options",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Ah, excellent question! I'm thrilled to guide you through the delightful realm of our shipment options. Here's a glimpse of the possibilities waiting for you:\n\n1. Standard Shipping: Offering reliable delivery within the required Date Range business days, this option is suitable for non-urgent orders.\n2. Expedited Shipping: The perfect choice for those seeking a faster delivery experience, with the required Date Range business days.\n3. Overnight Shipping: If speed is of utmost importance, our overnight service guarantees your package by the next business day.\n4. In-Store Pickup: With convenience at its core, you can personally collect your order from our the required Store Location.\n\nThese options have been carefully curated to cater to diverse needs and preferences. Please take a moment to ponder your preferences and feel free to ask any further questions or seek additional assistance. Your satisfaction is our utmost priority!\""
+  },
+  {
+    "id": "kb-49",
+    "type": "kb",
+    "question": "I have got to see what shipment options I can choose",
+    "expected_intent": "delivery_options",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Oh, the excitement of exploring different options! It's wonderful to hear that you're eager to discover the shipment options available to you. Allow me to shed light on the array of choices that await you:\n\n1. Standard Shipping: Delighting you within the required Date Range business days, this option is perfect for non-urgent items.\n2. Expedited Shipping: Need your items sooner? Opt for this faster alternative, with delivery in the required Date Range business days.\n3. Overnight Shipping: For those urgent needs, rest assured your package will arrive the very next business day.\n4. In-Store Pickup: If convenience and personal touch are your preferences, this option allows you to collect your items from our the required Store Location.\n\nAs you consider the different shipment options, I'm here to answer any further questions you may have. Your satisfaction is of utmost importance to us, and I'm dedicated to making your experience a seamless and delightful one."
+  },
+  {
+    "id": "kb-50",
+    "type": "kb",
+    "question": "how to see what options for delivery you offer?",
+    "expected_intent": "delivery_options",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Delving into the world of delivery options is as easy as pie! Allow me to guide you through the process:\n\n1. Visit our website and navigate to the product page of the item you're interested in purchasing.\n2. On the product page, you should find a section labeled \"Delivery Options\" or \"Shipping Information.\" Click on it to explore the available options.\n3. A dropdown menu or a list of delivery choices should appear, displaying a range of options such as standard shipping, expedited shipping, or in-store pickup.\n4. Take your time to review each option and select the one that suits your needs best. Feel free to check the estimated delivery times for each option as well.\n\nAnd voila! You now have insight into our diverse delivery options. If you encounter any difficulties or need further assistance, don't hesitate to reach out. Your satisfaction is our priority!"
+  },
+  {
+    "id": "kb-51",
+    "type": "kb",
+    "question": "I want assistance to see what delivery methods I have",
+    "expected_intent": "delivery_options",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'll make it happen! I'm here to provide you with the necessary information about our delivery methods. Let's explore the options available to you:\n\n1. Standard Shipping: This is our default shipping method, and it typically arrives within the required Date Range business days. It's perfect for non-urgent items.\n\n2. Expedited Shipping: If you're in a bit of a hurry, our expedited shipping option will get your items to you in the required Date Range business days. It's a faster alternative for more time-sensitive needs.\n\n3. Overnight Shipping: For those urgent situations where you need your items as soon as possible, our overnight shipping option guarantees next business day delivery.\n\n4. In-Store Pickup: If you prefer a more hands-on approach, you can choose to pick up your items personally from one of our the required Store Location. This is ideal if you want your products right away or if you're located near one of our stores.\n\nRemember that specific delivery times may vary depending on factors like item availability, shipping address, and other circumstances. Should you have any further questions or need assistance with anything else, please feel free to ask. My goal is to ensure you have a seamless and satisfactory experience.\""
+  },
+  {
+    "id": "kb-52",
+    "type": "kb",
+    "question": "I don't know how to check when my parcel is going to arrive",
+    "expected_intent": "delivery_period",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We understand that tracking the arrival of your parcel is important to you. Don't worry, we're here to help! To check the delivery status of your parcel, you can use the tracking number provided in the confirmation email or on your order details page. Simply go to the tracking page on our website or enter the tracking number on our tracking tool, and you'll be able to see the estimated delivery date and real-time updates of your parcel's journey. If you need any further assistance, please don't hesitate to reach out. We're always here to lend you a helping hand throughout the delivery process."
+  },
+  {
+    "id": "kb-53",
+    "type": "kb",
+    "question": "need to check how soon can i ezpect my package",
+    "expected_intent": "delivery_period",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We completely understand your curiosity and eagerness to know when your package will arrive. To provide you with an accurate estimate, could you please provide us with the the required Tracking Number or the user's order number? With that information, we can check the status of your package and give you a precise delivery date. Your patience is greatly appreciated, and we are here to assist you throughout the process."
+  },
+  {
+    "id": "kb-54",
+    "type": "kb",
+    "question": "can uhelp me check how soon can i expect my article",
+    "expected_intent": "delivery_period",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We appreciate your curiosity about the expected arrival time of your article. To provide you with an accurate estimate, could you please provide us with the the required Tracking Number or the user's order number? With that information, we'll be able to give you a precise update on when you can expect your article to arrive. Thank you for your cooperation in this matter."
+  },
+  {
+    "id": "kb-55",
+    "type": "kb",
+    "question": "can I see how soon can I expect the fucking item?",
+    "expected_intent": "delivery_period",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We completely understand your eagerness to track the delivery status of your item. To provide you with an accurate estimate, could you please provide us with the the user's order number or the required Tracking Number? With that information, we will be able to provide you with the expected delivery date. We apologize for any inconvenience caused."
+  },
+  {
+    "id": "kb-56",
+    "type": "kb",
+    "question": "correct info on gold account",
+    "expected_intent": "edit_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "How incredible it is to witness your dedication to refining the information on your gold account!I'm thrilled to provide you with the necessary guidance and support to ensure a seamless and efficient process. Rest assured, your satisfaction is our top priority. Now, to correct your account details, I recommend accessing our secure the company portal where you can make the desired changes in a safe and user-friendly environment. If you encounter any difficulties or have further questions, our dedicated customer support team is just a click or call away. We are here to empower you throughout this journey, so let's dive in and make those necessary adjustments to your gold account!"
+  },
+  {
+    "id": "kb-57",
+    "type": "kb",
+    "question": "I need assistance editing the information on my user",
+    "expected_intent": "edit_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "How exciting it is to see how much you value editing the information on your user profile!I'm here to provide you with the guidance and support you need to make those changes. To edit the information on your user profile, you can follow these steps:\n\n1. Log in to your account using your credentials.\n2. Navigate to the \"Profile\" or \"Account Settings\" section.\n3. Look for an \"Edit\" or \"Update\" button next to the information you want to modify.\n4. Click on the button and make the necessary changes.\n5. Remember to review and save your changes before exiting the page.\n\nIf you encounter any challenges or need further assistance during the process, please don't hesitate to reach out. We're here to help every step of the way!"
+  },
+  {
+    "id": "kb-58",
+    "type": "kb",
+    "question": "correcting data on gold account",
+    "expected_intent": "edit_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "How splendid it is to embark on this transformative journey of correcting the data on your esteemed the required Account Type account!I am dedicated to providing you with unwavering support and guidance, ensuring that your account details are accurately updated to align with your preferences and requirements. Let's work together to rectify any inaccuracies and create a seamless user experience tailored just for you. Could you kindly provide me with the specific data that requires correction on your the required Account Type account?"
+  },
+  {
+    "id": "kb-59",
+    "type": "kb",
+    "question": "editing account",
+    "expected_intent": "edit_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I must commend your decision to actively engage in editing and refining your account. Your commitment to keeping your account information up-to-date is truly commendable. Could you please provide me with more details about the specific changes you would like to make? I am here to assist you every step of the way and ensure a seamless account editing experience."
+  },
+  {
+    "id": "kb-60",
+    "type": "kb",
+    "question": "get invoice from last month",
+    "expected_intent": "get_invoice",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Indeed! I completely understand your request to obtain the invoice from last month. Let me assist you with that. Please provide me with the specific details, such as the account number or any other relevant information, so I can locate and retrieve the invoice for you."
+  },
+  {
+    "id": "kb-61",
+    "type": "kb",
+    "question": "i dont know what i need to do to download my bill #85632",
+    "expected_intent": "get_invoice",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "No problem at all! I completely understand your uncertainty regarding the steps to download your bill with the number #the required Invoice Number. To assist you with that, could you please provide me with some additional information? Are you trying to download the bill from our website or through a specific software or application? This will help me guide you through the process more accurately and ensure that you can easily access your bill."
+  },
+  {
+    "id": "kb-62",
+    "type": "kb",
+    "question": "I don't know how to get the invoice #37777",
+    "expected_intent": "get_invoice",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'm with you, your confusion about how to retrieve invoice the required Invoice Number. Let me guide you through the process. To access your invoice, you can navigate to your account settings and look for the \"Billing\" section. From there, you should be able to view and download your invoice with the specified number. If you encounter any difficulties or need further assistance, please don't hesitate to let me know. I'm here to help you every step of the way."
+  },
+  {
+    "id": "kb-63",
+    "type": "kb",
+    "question": "i dont know what i need to do to download the bill #37777",
+    "expected_intent": "get_invoice",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've been informed that you're unsure about the steps to download the bill with the number #the required Invoice Number. Let me guide you through the process. To download your bill, you can log in to your account and navigate to the billing section. Look for an option like \"Download Invoice\" or \"View Bill Details.\" Click on it, and a PDF or a webpage will open with your bill. From there, you can save or print the bill as per your requirement. If you face any difficulties or need further assistance at any point, please feel free to let me know. I'm here to help you."
+  },
+  {
+    "id": "kb-64",
+    "type": "kb",
+    "question": "I would like to obtain my money back",
+    "expected_intent": "get_refund",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'm with you, your desire to obtain a refund for your money. We value your satisfaction as our customer and we strive to resolve any issues promptly. To start the process, I kindly request you to provide some details regarding your purchase, such as the order number, invoice number, or any other relevant information. With this information, we can locate your transaction and initiate the refund procedure for you. Rest assured that I'm here to guide you every step of the way to ensure a smooth and hassle-free refund experience. Thank you for bringing this to our attention, and we apologize for any inconvenience caused."
+  },
+  {
+    "id": "kb-65",
+    "type": "kb",
+    "question": "I don't know how to demand a restitution of money",
+    "expected_intent": "get_refund",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've realized you're unsure about how to go about demanding restitution for your money. Rest assured, I'm here to provide guidance and support. To start, it's important to gather all the necessary documentation related to your purchase, such as receipts, invoices, or any communication with the company. This evidence will help support your claim for restitution. Next, you can reach out to the company through their customer service channels, such as phone, email, or live chat, and explain your situation calmly and clearly. Make sure to provide all the relevant details and attach any supporting documents. The company should be able to guide you through their specific process for requesting restitution. Remember, persistence and clear communication are key. If you encounter any difficulties or need further assistance, feel free to reach out to me. Together, we can work towards achieving a satisfactory resolution."
+  },
+  {
+    "id": "kb-66",
+    "type": "kb",
+    "question": "I paid the required Currency Symbolthe required Refund Amount for this order, help me getting a compensation",
+    "expected_intent": "get_refund",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I understand your concern regarding obtaining compensation for the $the required Refund Amount you spent on your order. I'm here to assist you in this process and ensure you receive the appropriate resolution. To begin, could you please provide more details about the issue you encountered with your order? By understanding the specifics, I can guide you towards the most effective course of action to seek compensation. Your satisfaction is of utmost importance, and I'm committed to helping you through this."
+  },
+  {
+    "id": "kb-67",
+    "type": "kb",
+    "question": "I have paid the required Currency Symbolthe required Refund Amount for an order, how oculd I receive a refund?",
+    "expected_intent": "get_refund",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for trusting to us regarding your payment of $the required Refund Amount for your order. I understand your concern about receiving a refund, and I'm here to assist you. To process a refund, we would need some additional information from you, such as the order number or the payment method used. Once we have the necessary details, we can initiate the refund process and ensure it is completed as quickly as possible. Please provide the required information, and I will take care of the refund for you."
+  },
+  {
+    "id": "kb-68",
+    "type": "kb",
+    "question": "I do not know how to sign up to the company newsletter",
+    "expected_intent": "newsletter_subscription",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Happy to hear from you! I truly understand that you're unsure about how to sign up for our company newsletter. Don't worry, I'm here to assist you every step of the way. To sign up, all you need to do is visit our website and locate the newsletter subscription section. Usually, there will be a form where you can enter your email address and submit your subscription request. If you're having trouble finding it, please let me know, and I'll provide you with more specific instructions. We appreciate your interest in staying connected with our company updates!"
+  },
+  {
+    "id": "kb-69",
+    "type": "kb",
+    "question": "I want to sign up to your newsletter, help me",
+    "expected_intent": "newsletter_subscription",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for your interest in signing up for our newsletter! I'd be more than happy to assist you with the subscription process. To get started, could you please provide me with your email address? This way, we can ensure that you receive our latest updates, promotions, and exclusive content directly in your inbox. Rest assured, we value your privacy and will handle your information with the utmost care."
+  },
+  {
+    "id": "kb-70",
+    "type": "kb",
+    "question": "I need to sign up to your company newsletter",
+    "expected_intent": "newsletter_subscription",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "That's fantastic! We appreciate your interest in signing up for our company newsletter. It's a great way to stay up-to-date with all the latest news and updates. To complete your subscription, please provide us with your email address. You can trust that we will handle your information with the utmost care and respect your privacy. Once you're signed up, you'll start receiving our newsletter directly in your inbox. We can't wait to have you as part of our newsletter community!"
+  },
+  {
+    "id": "kb-71",
+    "type": "kb",
+    "question": "I don't know how to unsubscribe from your newsletter",
+    "expected_intent": "newsletter_subscription",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I understood, you're unsure about how to unsubscribe from our newsletter. No worries, I'm here to provide guidance. To unsubscribe, you can look for the \"Unsubscribe\" link at the bottom of any newsletter email you receive from us. Alternatively, you can reach out to our customer support team, and they will gladly assist you in unsubscribing from our newsletter. We value your preferences and want to ensure that you have control over the communications you receive from us."
+  },
+  {
+    "id": "kb-72",
+    "type": "kb",
+    "question": "help me informof errors with online payment",
+    "expected_intent": "payment_issue",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for trusting to us for help in reporting errors with your online payment. We understand how frustrating it can be when payment errors occur, and we appreciate your patience. To assist you further, could you please provide more details about the specific errors you're encountering? This information will help us investigate and resolve the issue more effectively. We're here to support you every step of the way, so please don't hesitate to share any additional information or questions you may have."
+  },
+  {
+    "id": "kb-73",
+    "type": "kb",
+    "question": "can you help me reporting an error with online payment?",
+    "expected_intent": "payment_issue",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'll make it happen! I'm here to assist you in reporting any errors or issues you're facing with your online payment. It's essential to ensure that your payment process is smooth and hassle-free. To get started, could you please provide more specific details about the error you encountered? This information will help us investigate the issue promptly and find a suitable solution for you. Thank you for reaching out, and rest assured, we're committed to resolving this matter for you effectively."
+  },
+  {
+    "id": "kb-74",
+    "type": "kb",
+    "question": "I do not know how to inform of troubles with payments",
+    "expected_intent": "payment_issue",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "No worries! I'm here to guide you on how to report any troubles you're experiencing with payments. To ensure a quick resolution, you can reach out to our customer support team either through our website or via phone. They are available the required Customer Support Hours at the required Customer Support Phone Number. Our dedicated support team will be more than happy to assist you and gather all the necessary information to address the payment troubles you're facing. Together, we'll work towards resolving the issue and ensuring a smooth payment process for you."
+  },
+  {
+    "id": "kb-75",
+    "type": "kb",
+    "question": "help with payment",
+    "expected_intent": "payment_issue",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Unquestionably! I'm here to offer my assistance with any payment-related issues you may be encountering. Please let me know the specifics of the problem you're facing so that I can provide you with the most accurate guidance and support. Together, we'll work towards resolving this and ensuring a seamless payment experience for you."
+  },
+  {
+    "id": "kb-76",
+    "type": "kb",
+    "question": "assistance shopping some of your article",
+    "expected_intent": "place_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for seeking assistance in shopping for our articles! I'm here to provide you with the guidance you need to make a well-informed decision and ensure a smooth shopping experience. To get started, could you please let me know which specific articles you are interested in? With that information, I can help you explore our inventory and provide you with all the necessary details to make a purchase."
+  },
+  {
+    "id": "kb-77",
+    "type": "kb",
+    "question": "I want assistance ordering an article",
+    "expected_intent": "place_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Glad you contacted and expressing your desire for assistance in ordering an article. I'm here to make the process as smooth and enjoyable as possible. Could you please provide me with more details about the article you would like to order? This will help me guide you through the necessary steps and ensure that you have a seamless purchasing experience."
+  },
+  {
+    "id": "kb-78",
+    "type": "kb",
+    "question": "is it possible to acquire some items",
+    "expected_intent": "place_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Assuredly! It is absolutely possible to acquire some items from us. We have a wide range of products available for purchase. To get started, could you please let me know which specific items you are interested in? Providing me with the details will enable me to assist you better and ensure a smooth purchasing experience."
+  },
+  {
+    "id": "kb-79",
+    "type": "kb",
+    "question": "I do not know how I can shop a product",
+    "expected_intent": "place_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We value your outreach! I'm in tune with the fact that you're unsure about how to shop for a product. Don't worry, I'm here to assist you. To help you get started, could you please let me know which product you are interested in? Once I have the details, I can guide you on the steps to shop for it effortlessly. Let's make your shopping experience smooth and enjoyable!"
+  },
+  {
+    "id": "kb-80",
+    "type": "kb",
+    "question": "where can I get information about my lost PIN code?",
+    "expected_intent": "recover_password",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'm really sorry to hear that you've lost your PIN code. I understand how important it is to retrieve this information as soon as possible. Allow me to guide you:\n\n1. To obtain information about your lost PIN code, you can visit our support page on our website at the required Support Page URL. There, you will find a comprehensive resource center with articles, FAQs, and troubleshooting guides that can provide you with the necessary information.\n\n2. If you prefer a more personalized approach, you can reach out to our customer support team through our live chat feature on the website. Our knowledgeable agents will assist you in recovering your lost PIN code and addressing any related concerns.\n\nRemember, we are here to support you every step of the way. Please let us know if there's anything else we can do to assist you."
+  },
+  {
+    "id": "kb-81",
+    "type": "kb",
+    "question": "ius it possible to recover my user account key?",
+    "expected_intent": "recover_password",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Sure! I'm here to support you in the process of recovering your user account key. I understand how crucial it is to regain access to your account. To initiate the recovery process, please follow the steps below:\n\n1. Go to the \"the required Account Recovery Page URL\" on our website.\n2. Look for the option that says \"the required Account Recovery\" and click on it.\n3. You will be asked to provide certain verification details to confirm your identity. This may include information like your registered email address or phone number.\n4. Once your identity is verified, you will receive instructions on how to reset your account key.\n5. Follow the prompts in the email or on the recovery page to create a new account key.\n\nIf you encounter any difficulties or need further assistance, please don't hesitate to reach out to our customer support team. We're here to help you every step of the way!"
+  },
+  {
+    "id": "kb-82",
+    "type": "kb",
+    "question": "I have got to reset my profile access key, can you help me?",
+    "expected_intent": "recover_password",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for trusting to us for assistance with resetting your profile access key. I understand the importance of regaining access to your profile, and I'm here to guide you through the process.\n\nTo reset your profile access key, follow these steps:\n\n1. Visit the \"the required Login page URL\" of our platform.\n2. Look for the option to reset your profile access key. It might be labeled as \"Forgot Access Key\" or something similar.\n3. When prompted, provide the necessary information to verify your identity, such as your email address or phone number.\n4. Once your identity is verified, you will receive a link or a code to reset your profile access key.\n5. Click the link or enter the code as instructed to proceed with the reset process.\n6. Follow the on-screen instructions to create a new, secure profile access key.\n\nIf you encounter any difficulties during this process, please don't hesitate to reach out to me. I'm here to assist you every step of the way."
+  },
+  {
+    "id": "kb-83",
+    "type": "kb",
+    "question": "I need assistance restoring my PIN",
+    "expected_intent": "recover_password",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'll take care of it! I understand that you're seeking assistance to restore your PIN. It's important to regain access to your account as soon as possible. Here's what you can do:\n\n1. Start by visiting the \"the required Reset PIN\" section on our platform.\n2. You may be prompted to verify your identity using security questions or by entering additional information.\n3. Once your identity is verified, a PIN restoration option should be available.\n4. Follow the instructions provided to restore your PIN successfully.\n\nRemember, if you encounter any issues during the process or need further assistance, don't hesitate to reach out. We're here to help and ensure a seamless experience for you."
+  },
+  {
+    "id": "kb-84",
+    "type": "kb",
+    "question": "I want assistance informing of a problem with bloody sign-up",
+    "expected_intent": "registration_problems",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We sincerely apologize for the inconvenience you have faced during the sign-up process. Your willingness to seek assistance demonstrates your determination and commitment to resolving this issue. Please allow us to assist you in reporting this problem. Can you please provide more details about the specific challenges you encountered? This information will enable us to promptly address your concerns and offer you the necessary support to ensure a smooth sign-up experience. We appreciate your trust in us and value your feedback as it helps us improve our services."
+  },
+  {
+    "id": "kb-85",
+    "type": "kb",
+    "question": "i cant register how to inform of a damn sign-up issue",
+    "expected_intent": "registration_problems",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We understand how frustrating it can be when you encounter difficulties during the registration process. We appreciate your effort in bringing this issue to our attention. To inform us about the sign-up problem you encountered, please provide us with more details such as the error message you received, the steps you followed, and any specific information that can help us investigate the issue thoroughly. Rest assured, we are here to assist you and find a resolution as quickly as possible. Your feedback is crucial in improving our sign-up process and ensuring a seamless experience for all users."
+  },
+  {
+    "id": "kb-86",
+    "type": "kb",
+    "question": "assistance notifying of a signup problem",
+    "expected_intent": "registration_problems",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We appreciate you reaching out to us for assistance in notifying us about the signup problem you are encountering. We understand that encountering errors during the signup process can be frustrating, and we apologize for any inconvenience caused. Please provide us with more details about the specific problem you are facing, such as any error messages or steps you have already taken. This will help us investigate the issue further and provide you with an appropriate solution. Thank you for your patience, and we are here to assist you every step of the way."
+  },
+  {
+    "id": "kb-87",
+    "type": "kb",
+    "question": "i have an issue with my signup",
+    "expected_intent": "registration_problems",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for letting us know about the issue you encountered during the signup process. We understand that experiencing difficulties can be frustrating, and we apologize for any inconvenience caused. To assist you better, could you please provide more details about the specific problem you are facing? This information will help us identify the root cause and find an appropriate solution for you. Rest assured, our team is committed to resolving the issue and ensuring a smooth signup experience for you."
+  },
+  {
+    "id": "kb-88",
+    "type": "kb",
+    "question": "wanna leave some feedback about a service",
+    "expected_intent": "review",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for choosing to provide feedback about our service! Your opinion is invaluable to us and helps us enhance the quality of our services. I'm here to guide you through the process of leaving feedback. \n\nTo begin, you can visit our website and navigate to the \"Contact Us\" or \"Feedback\" page. There, you'll find a form or an email address dedicated specifically to receiving feedback. Simply fill out the form or compose an email expressing your thoughts, suggestions, or any specific experiences you'd like to share. \n\nIf you prefer a more direct approach, you can contact our customer support team via phone or live chat. Our representatives will be more than happy to assist you in leaving feedback and address any questions or concerns you may have along the way. \n\nYour feedback is highly appreciated, and it contributes to our continuous improvement efforts. We value your perspective and are committed to providing you with the best possible service. Is there anything else I can assist you with?"
+  },
+  {
+    "id": "kb-89",
+    "type": "kb",
+    "question": "review",
+    "expected_intent": "review",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for choosing to leave a review! Your feedback is incredibly valuable to us as it helps us understand what we are doing well and where we can improve. We appreciate your time and effort in sharing your thoughts. Your review will not only assist us in providing better service to you but also serve as a reference for future customers. Could you please provide more details about your experience and any specific points you would like to highlight?"
+  },
+  {
+    "id": "kb-90",
+    "type": "kb",
+    "question": "I need to send some feedback for a service, how to do it?",
+    "expected_intent": "review",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for expressing your interest in sharing your feedback about our service. We greatly value your input as it enables us to learn and grow. To provide your feedback, you can visit our website and navigate to the \"Contact Us\" or \"Customer Feedback\" section. Alternatively, you can reach out to our customer support team via phone, email, or live chat to share your thoughts. We are here to listen and ensure that your feedback is heard by the appropriate teams. Let me know if there's anything else I can assist you with!"
+  },
+  {
+    "id": "kb-91",
+    "type": "kb",
+    "question": "I would like to send my goddamn feedback, help me",
+    "expected_intent": "review",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for trusting and expressing your desire to share your feedback with us. Your opinion matters, and we greatly appreciate your input. To help you send your feedback, could you please provide me with more details about the specific product or service you would like to provide feedback on? This will enable us to ensure that your feedback reaches the right department for prompt action. I'm here to assist you every step of the way, so please don't hesitate to ask if you have any questions or need further guidance."
+  },
+  {
+    "id": "kb-92",
+    "type": "kb",
+    "question": "error entering a goddamn different shipping address",
+    "expected_intent": "set_up_shipping_address",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I apologize for the difficulty you are facing while trying to enter a different shipping address. I understand how frustrating this can be, and I'm here to assist you in resolving this issue. To better assist you, could you please provide more details about the error you're encountering? This will help me pinpoint the problem and provide you with an accurate solution. Thank you for your patience and cooperation."
+  },
+  {
+    "id": "kb-93",
+    "type": "kb",
+    "question": "I have problems entering my new delivery address",
+    "expected_intent": "set_up_shipping_address",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've taken note that you're experiencing difficulties when entering your new delivery address. This can be frustrating, but don't worry, I'm here to assist you. To help you resolve this issue, please follow these steps:\n\n1. Log in to your account using your credentials.\n2. Go to your account settings or profile section.\n3. Look for the option related to shipping addresses or delivery details.\n4. Select the option to add or edit your delivery address.\n5. Fill in the required fields with accurate and complete information for your new delivery address.\n6. Double-check all the details to ensure they are correct.\n7. Save your changes.\n\nIf you're still encountering problems or if the process appears to be different on your platform, please provide more specific details regarding the issues you're facing. Together, we'll find a solution tailored to your needs."
+  },
+  {
+    "id": "kb-94",
+    "type": "kb",
+    "question": "I want to enter a new shipping address, how can I do it?",
+    "expected_intent": "set_up_shipping_address",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I've grasped that you're looking to enter a new shipping address, and I'm here to guide you through the process. To set up a new shipping address, follow these steps:\n\n1. Log in to your account.\n2. Navigate to the \"My Account\" or \"Profile\" section.\n3. Look for the \"Shipping Addresses\" or similar option.\n4. Select the option to \"Add a New Address\" or \"Edit Shipping Addresses\".\n5. Fill in the required details, including the recipient's name, street address, city, state, and postal code.\n6. If applicable, specify any additional instructions or preferences for the delivery.\n7. Double-check the entered information for accuracy.\n8. Save the changes.\n\nIf you face any issues or encounter any difficulties during this process, please don't hesitate to let me know. I'm available to assist you further."
+  },
+  {
+    "id": "kb-95",
+    "type": "kb",
+    "question": "I cannot submit a different delivery addrdss",
+    "expected_intent": "set_up_shipping_address",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I apologize for the inconvenience you're experiencing while trying to submit a different delivery address. I understand the importance of ensuring accurate and timely delivery. Let's work together to resolve this issue. Here are a few steps you can take:\n\n1. Double-check the accuracy of the new delivery address you're trying to submit. Make sure all the necessary fields are filled correctly, including the street name, house number, city, state, and ZIP code.\n\n2. If you're encountering an error message when trying to submit the address, please provide the exact error message or any additional details you see on the screen. This will help us pinpoint the issue more accurately.\n\n3. Clear your browser cache and cookies and try submitting the address again. Sometimes, temporary data stored in your browser can interfere with the submission process.\n\n4. If the issue persists, try using a different web browser or device to submit the address. This will help us determine if the problem is specific to your current browser or device.\n\n5. If none of the above steps resolve the issue, I recommend reaching out to our customer support team directly. They have the necessary tools and expertise to assist you further in submitting a different delivery address.\n\nPlease let me know if you have any additional questions or if there's anything else I can assist you with. Your satisfaction is our top priority."
+  },
+  {
+    "id": "kb-96",
+    "type": "kb",
+    "question": "where to switch to the the required Account Type account",
+    "expected_intent": "switch_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Splendid! I'm excited to guide you through the process of upgrading to our magnificent the required Account Type account:\n\n1. **Access Your Account**: Begin by logging into our platform with your credentials.\n2. **Profile Management**: Once you're inside, navigate to your account settings or profile section.\n3. **Upgrade Option**: Look for an option that says \"Upgrade\" or \"Switch Account Type\".\n4. **the required Account Type Selection**: Select the \"the required Account Type Account\" from the available options.\n5. **Completion**: Follow the on-screen instructions to finalize the switch and start enjoying the impressive features of the the required Account Type account.\n\nIf you encounter any difficulties or have further questions, feel free to reach out. I'm here to ensure a seamless transition and enhance your experience with our the required Account Type account. Get ready to unlock a world of exclusive benefits!"
+  },
+  {
+    "id": "kb-97",
+    "type": "kb",
+    "question": "using freemium accouny",
+    "expected_intent": "switch_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'll make it happen! I'm thrilled to guide you in making the most of our versatile the required Account Category account:\n\n1. **Sign In:** Start by logging into our platform using your credentials.\n2. **Account Access:** Once inside, navigate to your account settings or profile section.\n3. **Upgrade Options:** Look for an option labeled 'Upgrade' or 'Switch Account Type'.\n4. **Select the required Account Category:** Choose the 'the required Account Category Account' from the available options.\n5. **Final Steps:** Follow the on-screen instructions to finalize your switch to the the required Account Category account.\n\nShould you encounter any difficulties or have further inquiries, don't hesitate to let me know. I'm here to ensure a seamless transition and optimal experience for you. Enjoy the flexibility and advantages that come with the the required Account Category account!\""
+  },
+  {
+    "id": "kb-98",
+    "type": "kb",
+    "question": "want assistance to use the the required Account Category account",
+    "expected_intent": "switch_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "For sure! I'm thrilled to assist you in maximizing the benefits and features of our the required Account Category account. Together, we'll navigate through the intricacies of this esteemed level:\n\n1. **Log In:** Start by signing in to our platform.\n2. **Account Exploration:** Once you've gained access, venture into your account settings.\n3. **Profile Assessment:** Within the settings, locate the section for your profile.\n4. **Switching to the required Account Category:** Look for an option labeled 'the required Upgrade Account' or 'the required Account Change' and select the option for the the required Account Category account.\n5. **Unleash the Potential:** Once the transition is complete, you'll have access to a plethora of premium features and exclusive benefits.\n\nIf there's anything specific you'd like guidance on or if you need further assistance during this process, please don't hesitate to reach out. I'm here to ensure your transition to the the required Account Category account is seamless and tailored to your needs. Enjoy all the advantages that await you with our prestigious the required Account Category offering!"
+  },
+  {
+    "id": "kb-99",
+    "type": "kb",
+    "question": "switch to gold account",
+    "expected_intent": "switch_account",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Assuredly! I'm thrilled to guide you through the seamless transition to our esteemed the required Account Type account:\n\n1. Get Started: Log in to our platform using your credentials.\n2. Account Settings: Navigate to your 'the required Settings' or 'the required Profile' section.\n3. Account Type: Look for an option labeled 'the required Upgrade Account' or 'the required Account Change'.\n4. Select the required Account Type: Choose the 'the required Account Type' from the available options.\n5. Finalize the Switch: Follow the on-screen prompts to complete the upgrade process.\n\nIf you encounter any challenges or have additional questions, I'm here to assist you. Your decision to switch to the required Account Type is remarkable, and I'm dedicated to ensuring a fulfilling experience. Embrace the remarkable benefits that await you with the the required Account Type account!"
+  },
+  {
+    "id": "kb-100",
+    "type": "kb",
+    "question": "i want asistance to check the damn ETA of order the user's order number",
+    "expected_intent": "track_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Your message means a lot! I'm aligned with the idea that you need assistance in checking the estimated time of arrival (ETA) for your order with the order number the user's order number. To provide you with accurate information regarding the ETA, could you please provide me the details of your order such as the date of purchase or any other relevant information you might have? This will greatly help me track the order and provide you with the most up-to-date ETA."
+  },
+  {
+    "id": "kb-101",
+    "type": "kb",
+    "question": "see status of purchase the user's order number",
+    "expected_intent": "track_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Thank you for contacting us! I understand that you would like to check the status of your purchase with the purchase number the user's order number. To provide you with accurate information, could you please provide me with some additional details, such as your name or email address associated with the purchase? Once I have this information, I will be able to assist you further in tracking the status of your purchase promptly."
+  },
+  {
+    "id": "kb-102",
+    "type": "kb",
+    "question": "I have to check purchase the user's order number status, I need help",
+    "expected_intent": "track_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We're here to help! I take note that you need assistance with checking the status of your purchase with the purchase number the user's order number. To do this, you can visit the 'orders section' section on our website and locate the specific purchase. There, you will be able to view the current status of your order. If you encounter any difficulties or have further questions, feel free to let me know. I'm here to guide you every step of the way and ensure you have a seamless experience."
+  },
+  {
+    "id": "kb-103",
+    "type": "kb",
+    "question": "how could i check the ETA of the order the user's order number",
+    "expected_intent": "track_order",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "We're all ears! I'm tuned into the idea that you would like to know how to check the estimated time of arrival (ETA) for your order with the number the user's order number. To do so, I recommend visiting the 'the required Order Tracking' section on our website. There, you can enter your order number and get real-time updates on the status and ETA of your order. If you need further assistance or have any other questions, feel free to ask. I'm here to help you every step of the way!"
+  },
+  {
+    "id": "kb-104",
+    "type": "kb",
+    "question": "I need assistance to check my restitution status",
+    "expected_intent": "track_refund",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I'll make it happen! I'm here to provide you the assistance you need to check the status of your restitution. I understand how important it is for you to stay updated on the progress. Rest assured, I'll gather the necessary information and guide you through the process. Could you please provide me with the details of your reimbursement, such as the transaction ID or any other relevant information? This will help me to pinpoint the exact status of your restitution and provide you with accurate information."
+  },
+  {
+    "id": "kb-105",
+    "type": "kb",
+    "question": "I need help to check if there are any news on the rebate",
+    "expected_intent": "track_refund",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I certainly recognize your need to keep updated on any news regarding your rebate. It's important to have the latest information on its progress. Let me quickly check the system for any updates and I'll get back to you with the details. In the meantime, I appreciate your patience and rest assured that we're doing everything we can to provide you with the necessary information."
+  },
+  {
+    "id": "kb-106",
+    "type": "kb",
+    "question": "i expect a refund of the required Currency Symbolthe required Refund Amount has it been processed already",
+    "expected_intent": "track_refund",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "Firstly, I truly understand how important the refund of $the required Refund Amount is for you. Rest assured, I'm here to assist you every step of the way. Let me quickly check the current status of your refund and provide you with the necessary information. As you patiently await, may I ask if you've received any email confirmation or reference number regarding your refund? Your insights will help us expedite the process and ensure your satisfaction."
+  },
+  {
+    "id": "kb-107",
+    "type": "kb",
+    "question": "can ya help me seeing the refnd status",
+    "expected_intent": "track_refund",
+    "expected_tool": "search_knowledge_base",
+    "reference_answer": "I understood that you're seeking assistance with checking the status of your refund. We're here to help you with that. Could you please provide me with some additional information such as the order number, the date of the refund request, or any other details that could help us locate your refund in our system? Once we have that, we'll be able to provide you with the most accurate and up-to-date information. Thank you for reaching out to us, and we appreciate your patience as we work together to resolve this matter."
+  },
+  {
+    "id": 1,
+    "type": "agent",
+    "question": "What is the status of order 5?",
+    "expected_tool": "get_order_status",
+    "reference_answer": ""
+  },
+  {
+    "id": 2,
+    "type": "agent",
+    "question": "Can I get a refund on order 26?",
+    "expected_tool": "check_refund_eligibility",
+    "reference_answer": "It exceeds the auto-approval limit and must be escalated to a human."
+  },
+  {
+    "id": null,
+    "type": "agent",
+    "question": "Look up the customer anna.schmidt@example.com",
+    "expected_tool": "lookup_customer",
+    "reference_answer": ""
+  }
+]

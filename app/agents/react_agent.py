@@ -7,13 +7,13 @@ from langchain_core.messages import (
     BaseMessage, SystemMessage, HumanMessage, AIMessage, ToolMessage,
 )
 
+from app.agents.memory.postgres_saver import checkpointer as postgress_checkpointer
 from app.agents.prompts.brain_prompt import SYSTEM_PROMPT
 from app.tools.tools import tools
 from app.agents.llm import model,kb_chain           
 
 
 model_with_tools = model.bind_tools(tools)
-
 
 
 
@@ -58,7 +58,7 @@ graph.add_conditional_edges("brain", should_continue)
 graph.add_conditional_edges("tool_node", route_after_tools)
 graph.add_edge("kb_answer", END)       
 
-agent_graph = graph.compile()
+agent_graph = graph.compile(checkpointer=postgress_checkpointer)
 
 
 if __name__ == "__main__":
