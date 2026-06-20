@@ -11,4 +11,4 @@ class OrderItem(Base):
     unit_price = Column(Numeric(10, 2))
 
     order = relationship("Order", back_populates="items")
-    product = relationship("Product")   # one-directional; no back ref needed on Product
+    product = relationship("Product")   

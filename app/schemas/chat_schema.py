@@ -7,3 +7,4 @@ class chatRequest(BaseModel):
 class chatResponse(BaseModel):
     response:str
     tools_used:List[str]
+    conversation_id : str | None

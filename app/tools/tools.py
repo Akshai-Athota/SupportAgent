@@ -1,6 +1,7 @@
-from app.tools.check_refund_eligiblity import check_refund_eligibility
-from app.tools.get_order_status import get_order_status
-from app.tools.lookup_customer import lookup_customer
+from app.tools.customer_tools import get_current_customer
+from app.tools.order_tools import get_my_order_status,get_my_orders
+from app.tools.refund_tools import check_my_refund_eligibility
 from app.tools.search_knowledge_base import search_knowledge_base
+from app.tools.store_memory import save_memory
 
-tools = [check_refund_eligibility,get_order_status,lookup_customer,search_knowledge_base]
+tools = [check_my_refund_eligibility,get_my_order_status,get_my_orders,get_current_customer,search_knowledge_base,save_memory]

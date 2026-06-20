@@ -8,7 +8,9 @@ class Customer(Base):
     first_name = Column(String)
     last_name = Column(String)
     phone_number = Column(String, nullable=True)   
-    email = Column(String, nullable=True)
+    email = Column(String, nullable=False,unique=True)
+    password = Column(String,nullable=False)
 
     addresses = relationship("Address", back_populates="customer")
     orders = relationship("Order", back_populates="customer")
+    conversations = relationship("Conversation",back_populates="customer",cascade="all, delete-orphan")

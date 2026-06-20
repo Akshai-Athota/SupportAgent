@@ -1,10 +1,12 @@
 from app.crud.db import get_session
 from app.models.customer import Customer
 
-def create_customer(first_name, last_name, phone_number=None, email=None):
+from app.utils.password import hash_password
+
+def create_customer(first_name, last_name, email,password,phone_number=None):
     with get_session() as session:
         customer = Customer(first_name=first_name, last_name=last_name,
-                            phone_number=phone_number, email=email)
+                            phone_number=phone_number, email=email,password=hash_password(password))
         session.add(customer)
         session.flush()
         return customer

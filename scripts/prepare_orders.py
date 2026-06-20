@@ -22,16 +22,16 @@ PRODUCTS = [
 ]
 
 CUSTOMERS = [
-    {"first_name": "Anna",   "last_name": "Schmidt",  "email": "anna.schmidt@example.com",   "phone_number": "+491701234567"},
-    {"first_name": "Liam",   "last_name": "Becker",   "email": "liam.becker@example.com",    "phone_number": "+491702234567"},
-    {"first_name": "Sophie", "last_name": "Wagner",   "email": "sophie.wagner@example.com",  "phone_number": "+491703234567"},
-    {"first_name": "Noah",   "last_name": "Fischer",  "email": "noah.fischer@example.com",   "phone_number": "+491704234567"},
-    {"first_name": "Mia",    "last_name": "Weber",    "email": "mia.weber@example.com",      "phone_number": "+491705234567"},
-    {"first_name": "Lucas",  "last_name": "Hoffmann", "email": "lucas.hoffmann@example.com", "phone_number": "+491706234567"},
-    {"first_name": "Emma",   "last_name": "Schulz",   "email": "emma.schulz@example.com",    "phone_number": "+491707234567"},
-    {"first_name": "Ben",    "last_name": "Koch",     "email": "ben.koch@example.com",       "phone_number": "+491708234567"},
-    {"first_name": "Lena",   "last_name": "Richter",  "email": "lena.richter@example.com",   "phone_number": "+491709234567"},
-    {"first_name": "Paul",   "last_name": "Wolf",     "email": "paul.wolf@example.com",      "phone_number": "+491710234567"},
+    {"first_name": "Anna",   "last_name": "Schmidt",  "email": "anna.schmidt@example.com",   "phone_number": "+491234567890","password":"abcd123"},
+    {"first_name": "Liam",   "last_name": "Becker",   "email": "liam.becker@example.com",    "phone_number": "+491234567890","password":"abcd123"},
+    {"first_name": "Sophie", "last_name": "Wagner",   "email": "sophie.wagner@example.com",  "phone_number": "+491234567890","password":"abcd123"},
+    {"first_name": "Noah",   "last_name": "Fischer",  "email": "noah.fischer@example.com",   "phone_number": "+491234567890","password":"abcd123"},
+    {"first_name": "Mia",    "last_name": "Weber",    "email": "mia.weber@example.com",      "phone_number": "+491234567890","password":"abcd123"},
+    {"first_name": "Lucas",  "last_name": "Hoffmann", "email": "lucas.hoffmann@example.com", "phone_number": "+491234567890","password":"abcd123"},
+    {"first_name": "Emma",   "last_name": "Schulz",   "email": "emma.schulz@example.com",    "phone_number": "+491234567890","password":"abcd123"},
+    {"first_name": "Ben",    "last_name": "Koch",     "email": "ben.koch@example.com",       "phone_number": "+491234567890","password":"abcd123"},
+    {"first_name": "Lena",   "last_name": "Richter",  "email": "lena.richter@example.com",   "phone_number": "+491234567890","password":"abcd123"},
+    {"first_name": "Paul",   "last_name": "Wolf",     "email": "paul.wolf@example.com",      "phone_number": "+491234567890","password":"abcd123"},
 ]
 
 STATUSES = ["processing", "shipped", "delivered", "cancelled"]
