@@ -33,7 +33,7 @@ def get_response_for_query(
 
     try:
         result = agent_graph.invoke(
-            {"messages": [HumanMessage(content=query)], "query": query, "customer_id": customer_id},
+            {"messages": [HumanMessage(content=query)], "query": query, "customer_id": customer_id,"conversation_id":conversation_id},
             config={"configurable": {"thread_id": conversation_id}, "recursion_limit": 10},
         )
         tools_used = [tc["name"] for m in result["messages"]

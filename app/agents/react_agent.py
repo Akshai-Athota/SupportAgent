@@ -23,8 +23,9 @@ model_with_tools = model.bind_tools(tools)
 class AgentState(TypedDict):
     messages: Annotated[Sequence[BaseMessage], add_messages]
     query: str
-    customer_id : int
-    memories : str
+    customer_id: int
+    conversation_id: str
+    memories: str
 
 def load_memory_node(state:AgentState,*,store:BaseStore):
     namespace = ("memories",str(state["customer_id"]))

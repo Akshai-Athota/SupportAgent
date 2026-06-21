@@ -14,3 +14,4 @@ class Customer(Base):
     addresses = relationship("Address", back_populates="customer")
     orders = relationship("Order", back_populates="customer")
     conversations = relationship("Conversation",back_populates="customer",cascade="all, delete-orphan")
+    tickets = relationship("Ticket",back_populates="customer",cascade="all, delete-orphan")

@@ -3,5 +3,6 @@ from app.tools.order_tools import get_my_order_status,get_my_orders
 from app.tools.refund_tools import check_my_refund_eligibility
 from app.tools.search_knowledge_base import search_knowledge_base
 from app.tools.store_memory import save_memory
+from app.tools.ticket_tools import escalate_to_human,get_all_tickets_by_order_id
 
-tools = [check_my_refund_eligibility,get_my_order_status,get_my_orders,get_current_customer,search_knowledge_base,save_memory]
+tools = [check_my_refund_eligibility,get_my_order_status,get_my_orders,get_current_customer,search_knowledge_base,save_memory,escalate_to_human,get_my_tickets_of_order]
