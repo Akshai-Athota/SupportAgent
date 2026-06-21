@@ -3,10 +3,11 @@ from langchain.tools import tool
 from langgraph.prebuilt import InjectedState
 
 from app.crud.ticket import create_ticket as ct,get_all_tickets_by_order_id
+from app.crud.order import get_order_by_id
 
 
 @tool
-def escalate_to_human(reason: str, state: Annotated[dict, InjectedState], order_id: int | None = None) -> str:
+def escalate_to_human(reason: str, state: Annotated[dict, InjectedState], order_id: int | str|None = None) -> str:
     """Escalate the current issue to a human by creating a support ticket. Use when a refund
     needs manual approval, you can't resolve the issue, or the customer asks for a human.
     Pass order_id if the issue concerns a specific order. `reason` is a one-line summary."""
@@ -26,7 +27,7 @@ def get_my_tickets_of_order(order_id:int|str,state: Annotated[dict, InjectedStat
     if order is None or order.customer_id != state["customer_id"]:
         return f"No order {order_id} found on your account."
 
-    tickets = get_all_tickets_by_order_id(state["customer_id"])
+    tickets = get_all_tickets_by_order_id(order_id)
     if not tickets:
         return "You have no support tickets."
     return "; ".join(

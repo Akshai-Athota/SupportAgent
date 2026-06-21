@@ -14,5 +14,5 @@ class Conversation(Base):
     created_at = Column(DateTime(timezone=True),default=lambda : datetime.now(timezone.utc))
     updated_at = Column( DateTime(timezone=True),default=lambda: datetime.now(timezone.utc),onupdate=lambda: datetime.now(timezone.utc),nullable=False,)
     customer = relationship("Customer",back_populates="conversations")
-    ticket = relationship("Ticket",back_populates="conversation")
+    tickets = relationship("Ticket",back_populates="conversation")
 

@@ -1,3 +1,10 @@
+from app.models.base import Base
+
+from sqlalchemy import Column,String,Integer,DateTime,ForeignKey
+from sqlalchemy.orm import relationship
+from datetime import datetime,timezone
+from uuid import uuid4
+
 class Ticket(Base):
     __tablename__ = "tickets"
 

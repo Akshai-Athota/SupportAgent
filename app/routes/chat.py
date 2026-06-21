@@ -8,7 +8,9 @@ from app.crud.conversation import create_conversation,get_conversation
 
 from langchain_core.messages import HumanMessage
 from fastapi import APIRouter,Depends,Request
+from fastapi.responses import StreamingResponse
 import logging
+import json
 
 logger = logging.getLogger(__name__)
 
@@ -44,3 +46,43 @@ def get_response_for_query(
         logger.exception("chat_failed")
         return chatResponse(response="Sorry, I couldn't find an answer. I can connect you with a human agent.",
                             tools_used=[], conversation_id=conversation_id)
+
+
+@chat_route.post("/stream")
+@limiter.limit(RATE_LIMT + "/minute")
+def stream_response(
+    request: Request,
+    request_body: chatRequest,
+    conversation_id: str | None = None,
+    customer_id: int = Depends(get_current_customer),
+):
+    query = request_body.query
+
+    if conversation_id is None:
+        conversation_id = create_conversation(customer_id=customer_id,title=None).id
+    elif not get_conversation(customer_id=customer_id, conversation_id=conversation_id):
+        def denied():
+            yield f"data: {json.dumps('You do not have access to that conversation.')}\n\n"
+            yield "data: [DONE]\n\n"
+        return StreamingResponse(denied(), media_type="text/event-stream")
+
+    def token_generator():
+        try:
+            for chunk, metadata in agent_graph.stream(
+                {"messages": [HumanMessage(content=query)], "query": query,
+                 "customer_id": customer_id, "conversation_id": conversation_id},
+                config={"configurable": {"thread_id": conversation_id}, "recursion_limit": 10},
+                stream_mode="messages",
+            ):
+                if chunk.content:
+                    yield f"data: {json.dumps(chunk.content)}\n\n"
+        except Exception:
+            logger.exception("chat_stream_failed")
+            yield f"data: {json.dumps('Sorry, something went wrong.')}\n\n"
+        yield "data: [DONE]\n\n"
+
+    return StreamingResponse(
+        token_generator(),
+        media_type="text/event-stream",
+        headers={"X-Conversation-Id": conversation_id},
+    )

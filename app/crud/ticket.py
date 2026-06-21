@@ -2,6 +2,8 @@ from app.models.ticket import Ticket
 from app.crud.db import get_session
 
 def create_ticket(customer_id:int,conversation_id:str,summary:str="",order_id=None):
+    if order_id:
+        order_id = int(order_id)
     with get_session() as session:
         ticket = Ticket(
             customer_id=customer_id,
@@ -20,7 +22,7 @@ def get_all_tickets(customer_id:int):
 
 def get_all_tickets_by_order_id(order_id:int):
     with get_session() as session:
-        return session.query(Ticket).filter_by(order_id=customer_id).all()
+        return session.query(Ticket).filter_by(order_id=order_id).all()
 
 def get_ticket(customer_id:int,ticket_id:str):
     with get_session() as session:
