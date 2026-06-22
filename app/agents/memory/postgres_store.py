@@ -1,8 +1,15 @@
 from langgraph.store.postgres import PostgresStore
-
+from psycopg_pool import ConnectionPool
 from app.config import DATABSE_URL
 
-store_cm = PostgresStore.from_conn_string(DATABSE_URL)
-storepointer = store_cm.__enter__()
+pool = ConnectionPool(
+    conninfo=DATABSE_URL,
+    max_size=20,
+    kwargs={"autocommit": True, "prepare_threshold": 0},
+    check=ConnectionPool.check_connection,   
+)
+
+storepointer = PostgresStore(pool)
+
 
 storepointer.setup()
