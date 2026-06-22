@@ -1,0 +1,129 @@
+:root {
+  --purple: #6c47ff;
+  --purple-2: #7e45f0;
+  --purple-pink: #b453e6;
+  --ink: #221b38;
+  --ink-2: #2c2542;
+  --muted: #8a8398;
+  --faint: #a8a2b5;
+  --faint-2: #b6aecb;
+  --line: #ece7f6;
+  --line-2: #efebf9;
+  --soft: #f1ecff;
+  --soft-border: #e4dbff;
+  --bubble: #f6f4fc;
+  --sidebar: #fbfaff;
+  --danger: #d14343;
+  --danger-bg: #fdeded;
+  --danger-border: #f8d7d7;
+  --radius: 13px;
+  --shadow-purple: 0 8px 20px rgba(108, 71, 255, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #fff;
+  color: var(--ink);
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--faint);
+}
+
+@keyframes haloUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes haloIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes haloBlink {
+  0%,
+  80%,
+  100% {
+    opacity: 0.22;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(-3px);
+  }
+}
+@keyframes haloCaret {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes haloSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes haloToast {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 12px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+@keyframes haloFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e3deef;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d2cbe6;
+  background-clip: content-box;
+}
