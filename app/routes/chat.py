@@ -6,7 +6,7 @@ from app.config import RATE_LIMT
 from app.security.token_verification import get_current_customer
 from app.crud.conversation import create_conversation,get_conversation
 
-from langchain_core.messages import HumanMessage
+from langchain_core.messages import HumanMessage,AIMessageChunk
 from fastapi import APIRouter,Depends,Request
 from fastapi.responses import StreamingResponse
 import logging
@@ -59,7 +59,7 @@ def stream_response(
     query = request_body.query
 
     if conversation_id is None:
-        conversation_id = create_conversation(customer_id=customer_id,title=None).id
+        conversation_id = create_conversation(customer_id=customer_id, title=None).id
     elif not get_conversation(customer_id=customer_id, conversation_id=conversation_id):
         def denied():
             yield f"data: {json.dumps('You do not have access to that conversation.')}\n\n"
@@ -74,6 +74,10 @@ def stream_response(
                 config={"configurable": {"thread_id": conversation_id}, "recursion_limit": 10},
                 stream_mode="messages",
             ):
+                
+                if not isinstance(chunk, AIMessageChunk):
+                    continue
+
                 if chunk.content:
                     yield f"data: {json.dumps(chunk.content)}\n\n"
         except Exception:
