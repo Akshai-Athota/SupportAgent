@@ -14,7 +14,7 @@ const SHORT_LABELS = {
   "I'd like to talk to a human agent": "Talk to a human agent",
 };
 
-export function WelcomeState({ onPick }) {
+export function WelcomeState({ token, onPick }) {
   return (
     <div className={styles.welcome}>
       <div className={styles.welcomeIcon}>
