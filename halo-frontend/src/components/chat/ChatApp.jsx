@@ -95,6 +95,7 @@ export function ChatApp() {
           onToggleStreaming={toggleStreaming}
         />
         <MessageList
+          token={token}
           messages={messages}
           sending={sending}
           showActivity={SHOW_AGENT_ACTIVITY}

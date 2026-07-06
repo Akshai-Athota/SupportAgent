@@ -1,5 +1,6 @@
 import { Spark } from "../ui/Icons";
 import styles from "./chat.module.css";
+import { SampleData } from "./SampleData";
 
 const SUGGESTIONS = [
   "Where is my order?",
@@ -24,6 +25,7 @@ export function WelcomeState({ onPick }) {
         Ask me about your orders, refunds, deliveries or anything else. I'll
         look things up and bring in a human if you need one.
       </p>
+      <SampleData token={token} onPick={onPick} />
       <div className={styles.suggestGrid}>
         {SUGGESTIONS.map((text) => (
           <div key={text} className={styles.suggestCard} onClick={() => onPick(text)}>

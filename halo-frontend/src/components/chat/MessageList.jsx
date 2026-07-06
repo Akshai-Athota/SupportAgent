@@ -4,7 +4,7 @@ import { WelcomeState } from "./WelcomeState";
 import styles from "./chat.module.css";
 
 /** Scrollable transcript. Shows the welcome state when empty. */
-export function MessageList({ messages, sending, showActivity, onPickSuggestion }) {
+export function MessageList({ token, messages, sending, showActivity, onPickSuggestion }) {
   const endRef = useRef(null);
   const scrollRef = useRef(null);
 
@@ -17,7 +17,7 @@ export function MessageList({ messages, sending, showActivity, onPickSuggestion 
   return (
     <div className={styles.messages} ref={scrollRef}>
       {messages.length === 0 ? (
-        <WelcomeState onPick={onPickSuggestion} />
+        <WelcomeState token={token} onPick={onPickSuggestion} />
       ) : (
         messages.map((message, i) => (
           <Message key={i} message={message} showActivity={showActivity} />
